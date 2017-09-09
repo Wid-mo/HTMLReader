@@ -1,0 +1,1755 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Lista startowa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+		
+		
+		
+
+                		
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type='text/javascript' src='/js/jquery_validation.js' ></script>
+		<script type='text/javascript' src='/js/ultima_validation.js' ></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script> 
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<!-- <link href='/css/bootstrap-responsive.css' rel='stylesheet'> -->
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+		<link href="/css/tilemenu.css" rel="stylesheet">
+		<link href='/css/buttons.css' rel='stylesheet'>
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/formstyle.css" />
+		<link rel="stylesheet" type="text/css" href="/css/sorterstyle.css" />
+		<script src="/js/bootstrap.min.js"></script>
+		<script type="text/javascript">	
+			var nav = $('#header');
+			//nav.height(70);
+		</script>
+    </head>
+    <body>
+		<div id="container">
+			<div id='header' class='navigation' >
+				<!-- <div id='goback'>
+					<a id='linkgoback' href='#'></a>
+				</div> -->
+				<h1 class="center text-center">Ultimasport.pl - zapisy</h1>
+				<h2 class="center text-center">Lista startowa - I BIEG „Szlakiem Marianny Orańskiej” </h2>
+				<!-- MENU -->
+				<!-- <div id="topNav" class="navigation"> -->
+					<span id="closebtn" onclick="navToggle()">
+						<span class="line1"></span>
+						<span class="line2"></span>
+						<span class="line3"></span>
+					</span>
+
+					<ul class="menulist">
+						<li><a href="/zapisz/290" class="menuitems">Zapisz się na zawody</a>						</li>		
+						<li>
+							<a href="/zapisz/290" class="menuitems">Edytuj swoje zgłoszenie</a>						</li>				
+						<li>
+							<a href="http://zapisy.ultimasport.pl/regulamin290" class="menuitems">Regulamin</a>						</li>
+						<li>
+							<a href="/lista/290" class="menuitems">Lista zawodników</a>						</li>
+											</ul>			
+				<!-- </div> -->
+			</div>
+			
+<!-- <h1>Lista startowa: I BIEG „Szlakiem Marianny Orańskiej”  </h1> -->
+<br>
+<a href="/290">Zapisz się na zawody</a><br>
+    <a href="/login">Zaloguj się i zapisz na zawody</a>    
+			<table id='myTable' class="table table-striped tablesorter">
+                <thead>
+				<tr>
+                    <th>Lp.</th>
+                                            <th>Imię</th>
+                                                <th>Nazwisko</th>
+                                                <th>Miejscowość</th>
+                                                <th>Dystans</th>
+                                                <th>Kategoria</th>
+                                                <th>Opłata</th>
+                                                <th>Drużyna</th>
+                                                <th>Mieszkaniec Gminy Kamieniec</th>
+                        				</tr>
+                </thead>
+				<tbody>
+                                    <tr>
+                        <td>1</td>
+                                                        <td>Henryk</td>
+                                                                <td>Ostropolski</td>
+                                                                <td>Dzierżoniów</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Bielawska Akademia Biegania</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>2</td>
+                                                        <td>Łukasz </td>
+                                                                <td>Kulczewski</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>KB Vamos Amigos Wrocław</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>3</td>
+                                                        <td>Halina</td>
+                                                                <td>Czyż</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>4</td>
+                                                        <td>Małgorzata</td>
+                                                                <td>Glina - Krawczyk</td>
+                                                                <td>Starczów</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Ząbkowicka Grupa Biegowa Frankenstein</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>5</td>
+                                                        <td>Artur</td>
+                                                                <td>Drabik</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>6</td>
+                                                        <td>ryszard</td>
+                                                                <td>Nesterewicz</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS Iskra Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>7</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Kowal</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS ISKRA Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>8</td>
+                                                        <td>ZENON</td>
+                                                                <td>Puszczewicz</td>
+                                                                <td>Pisarzowice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Niezrzeszony</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>9</td>
+                                                        <td>KRYSTIAN</td>
+                                                                <td>BUBULA</td>
+                                                                <td>Strzelin</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Strzeliński Klub Biegacza </td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>10</td>
+                                                        <td>Dawid</td>
+                                                                <td>Kutaj</td>
+                                                                <td>Henryków</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Klasztor Księgi Henrykowskiej</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>11</td>
+                                                        <td>Michał</td>
+                                                                <td>Woś</td>
+                                                                <td>Ołdrzychowice Kłodzkie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS ISKRA Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>12</td>
+                                                        <td>Antoni.</td>
+                                                                <td>Starościak</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>jedno osobowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>13</td>
+                                                        <td>Karina</td>
+                                                                <td>Zając</td>
+                                                                <td>Starczówek</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Mamy biegamy</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>14</td>
+                                                        <td>Zbigniew</td>
+                                                                <td>Marzec</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>15</td>
+                                                        <td>Marcin</td>
+                                                                <td>Czyż</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>#SobasTeam </td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>16</td>
+                                                        <td>Marcin</td>
+                                                                <td>Bernatek</td>
+                                                                <td>Strzegom</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Strzegomska Dwunastka</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>17</td>
+                                                        <td>Jacek</td>
+                                                                <td>Kalus</td>
+                                                                <td>Wałbrzych</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Sudeckie Wycieczki Biegowe</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>18</td>
+                                                        <td>Michał Esteban</td>
+                                                                <td>Łojko</td>
+                                                                <td>Drzonków</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Rajtarowianka Drzonków</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>19</td>
+                                                        <td>Henryka</td>
+                                                                <td>Bilska-Mroczka</td>
+                                                                <td>Ziębice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>CKZiU Strzelin</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>20</td>
+                                                        <td>Marcin</td>
+                                                                <td>Kornaś</td>
+                                                                <td>Braszowice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Ząbkowicka Grupa Biegowa FRANKENSTEIN</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>21</td>
+                                                        <td>Kacper</td>
+                                                                <td>Burzała</td>
+                                                                <td>Ożary</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Delta Runners - Filia Ożary</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>22</td>
+                                                        <td>WIESŁAW</td>
+                                                                <td>BEDNARCZYK</td>
+                                                                <td>Brzeg</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Kotwica Brzeg</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>23</td>
+                                                        <td>Dariusz</td>
+                                                                <td>KARP</td>
+                                                                <td>Biały Kościół</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Karp Sport Team</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>24</td>
+                                                        <td>Maciej</td>
+                                                                <td>Błauciak</td>
+                                                                <td>Tarnów/Ząbkowice Śląskie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Ząbkowicka Grupa Biegowa FRANKENSTEIN</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>25</td>
+                                                        <td>Ewa</td>
+                                                                <td>Kowal</td>
+                                                                <td>Ziębice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Sparta Ziębice</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>26</td>
+                                                        <td>Ewa</td>
+                                                                <td>Błauciak</td>
+                                                                <td>Tarnów</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>ZaBIEGANI</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>27</td>
+                                                        <td>MARCIN</td>
+                                                                <td>GAJEWSKI</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>REKINYSUKCESU.PL</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>28</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Kowalczyk</td>
+                                                                <td>Pieszyce</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Bielawska Akademia Biegania</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>29</td>
+                                                        <td>Jarosław</td>
+                                                                <td>Papierz</td>
+                                                                <td>Opole</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>OPOLE biega</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>30</td>
+                                                        <td>Waldemar</td>
+                                                                <td>Sawicki</td>
+                                                                <td>Trzeboszowice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>31</td>
+                                                        <td>Rafał</td>
+                                                                <td>Wołczyński</td>
+                                                                <td>Jelenia Góra</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>32</td>
+                                                        <td>MONIKA</td>
+                                                                <td>DUDEK</td>
+                                                                <td>Ziębice</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>pasja chrzanka running team </td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>33</td>
+                                                        <td>Bartosz</td>
+                                                                <td>Kuziel</td>
+                                                                <td>Stronie Śląskie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Black Running Stronie Śląskie</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>34</td>
+                                                        <td>Bartosz</td>
+                                                                <td>Zając</td>
+                                                                <td>Struga</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>BZ TRAINING SYSTEM-treningi personalne / AZS AWF KRAKÓW</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>35</td>
+                                                        <td>Zdzisław </td>
+                                                                <td>Poświat </td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>36</td>
+                                                        <td>Marta</td>
+                                                                <td>Drabik</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>37</td>
+                                                        <td>Adam</td>
+                                                                <td>Wcisło</td>
+                                                                <td>Jaszkowa Dolna</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS Iskra Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>38</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Turek</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS ISKRA Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>39</td>
+                                                        <td>Małgorzata</td>
+                                                                <td>Koza</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>ZKKK</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>40</td>
+                                                        <td>FRANCISZEK</td>
+                                                                <td>Kornaś</td>
+                                                                <td>Dzbanów</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>FO SALAMANDRA</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>41</td>
+                                                        <td>Martyna</td>
+                                                                <td>Gędłek</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>42</td>
+                                                        <td>Piotr</td>
+                                                                <td>Danik</td>
+                                                                <td>Ożary</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Rodzinka</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>43</td>
+                                                        <td>Szymon</td>
+                                                                <td>Klunder</td>
+                                                                <td>Ziębice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>44</td>
+                                                        <td>Anna</td>
+                                                                <td>Kucmus-Rapacz</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS ISKRA Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>45</td>
+                                                        <td>Marta</td>
+                                                                <td>Romanów-Łojko</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Rajtarowianka Drzonków</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>46</td>
+                                                        <td>Elżbieta</td>
+                                                                <td>Cichoń</td>
+                                                                <td>Strzegom</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Strzegomska Dwunastka</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>47</td>
+                                                        <td>Edyta</td>
+                                                                <td>Gardecka</td>
+                                                                <td>Wałbrzych</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>48</td>
+                                                        <td>Sylwia</td>
+                                                                <td>Gardecka</td>
+                                                                <td>Wałbrzych</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>49</td>
+                                                        <td>Piotr</td>
+                                                                <td>Kociołowicz</td>
+                                                                <td>Janowiec </td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Ząbkowicka Grupa Biegowa Frankenstein</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>50</td>
+                                                        <td>Rafal</td>
+                                                                <td>Makowiecki</td>
+                                                                <td>wroclaw</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>51</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Mielnik</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>52</td>
+                                                        <td>Aleksandra</td>
+                                                                <td>Łapiak </td>
+                                                                <td>Walbrzych</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>BZ TRAINING SYSTEM</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>53</td>
+                                                        <td>Radosław</td>
+                                                                <td>Krzywak</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>amator</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>54</td>
+                                                        <td>Karolina</td>
+                                                                <td>Kargol</td>
+                                                                <td>Dzbanów</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>55</td>
+                                                        <td>Barbara</td>
+                                                                <td>Niemiec</td>
+                                                                <td>Nowa Ruda</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Amator</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>56</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Cisak</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Ząbkowicka Grupa Biegowa FRANKENSTEIN</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>57</td>
+                                                        <td>Jakub</td>
+                                                                <td>Stanik</td>
+                                                                <td>Strzelin</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>58</td>
+                                                        <td>Wiesław</td>
+                                                                <td>Lęga</td>
+                                                                <td>Świdnica</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>BRAK TEAM</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>59</td>
+                                                        <td>AUGUSTYN</td>
+                                                                <td>FABJAŃSKI</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>60</td>
+                                                        <td>Weronika</td>
+                                                                <td>Spisak</td>
+                                                                <td>Ożary</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>61</td>
+                                                        <td>Wiesław</td>
+                                                                <td>Gardecki</td>
+                                                                <td>Wałbrzych</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>62</td>
+                                                        <td>Ewa</td>
+                                                                <td>Błauciak</td>
+                                                                <td>Tarnów</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>ZĄBKOWICKA GRUPA BIEGOWA FRANKENSTEIN</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>63</td>
+                                                        <td>ANNA</td>
+                                                                <td>WOLANO</td>
+                                                                <td>Słotwina</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Świdnicka Grupa Biegowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>64</td>
+                                                        <td>Aleksandra</td>
+                                                                <td>Kowalczyk</td>
+                                                                <td>Pieszyce</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>65</td>
+                                                        <td>Patrycja</td>
+                                                                <td>Lewandowska</td>
+                                                                <td>Ołdrzychowice Kłodzkie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS ISKRA Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>66</td>
+                                                        <td>Michał</td>
+                                                                <td>Margasiński</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Ząbkowicka Grupa Biegowa Frankenstein</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>67</td>
+                                                        <td>Ryszard</td>
+                                                                <td>Osadnik</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>68</td>
+                                                        <td>Artur</td>
+                                                                <td>KOZA</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>zkkk</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>69</td>
+                                                        <td>Dariusz</td>
+                                                                <td>Fuchs</td>
+                                                                <td>Ołdrzychowice Kłodzkie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>LKS ISKRA Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>70</td>
+                                                        <td>Mateusz</td>
+                                                                <td>Wysłobocki</td>
+                                                                <td>Lądek-Zdrój</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>KLUB LEKKOATLETYCZNY ZIEMIA KŁODZKA</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>71</td>
+                                                        <td>Joanna</td>
+                                                                <td>Klimas-Zajączkowska</td>
+                                                                <td>Piecowice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>KTW Wrocław</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>72</td>
+                                                        <td>Sławomir</td>
+                                                                <td>Zajączkowski</td>
+                                                                <td>Piecowice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>KTW Wrocław</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>73</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Twardowski</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>74</td>
+                                                        <td>Patrycja</td>
+                                                                <td>Matraszek</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>75</td>
+                                                        <td>Jacek</td>
+                                                                <td>Margasiński</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Ząbkowicka Grupa Biegowa FRANKENSTEIN</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>76</td>
+                                                        <td>Marek</td>
+                                                                <td>Spychała</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>KTW Wrocław</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>77</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Zając</td>
+                                                                <td>Bardo</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>brak</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>78</td>
+                                                        <td>Sławek</td>
+                                                                <td>Gorczyca</td>
+                                                                <td>Strzelin</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>STRZELIŃSKI KLUB BIEGACZA GRANIT</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>79</td>
+                                                        <td>Anita </td>
+                                                                <td>Kosela</td>
+                                                                <td>Kielce</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>80</td>
+                                                        <td>Dariusz </td>
+                                                                <td>Borzęcki</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>brak</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>81</td>
+                                                        <td>Wojciech</td>
+                                                                <td>Kasowski</td>
+                                                                <td>Starczówek</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>K. S. Młodzi Wilcy</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>82</td>
+                                                        <td>Katarzyna</td>
+                                                                <td>Tapka</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>83</td>
+                                                        <td>Sebastian</td>
+                                                                <td>Zbroniec</td>
+                                                                <td>Opole</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>84</td>
+                                                        <td>Marcin</td>
+                                                                <td>Miazga</td>
+                                                                <td>Oława</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>85</td>
+                                                        <td>Klaudia</td>
+                                                                <td>Berdychowska</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>86</td>
+                                                        <td>Kacper</td>
+                                                                <td>Słomba</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>87</td>
+                                                        <td>Oliwia</td>
+                                                                <td>Rejch</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>88</td>
+                                                        <td>Michał</td>
+                                                                <td>Otfinowski</td>
+                                                                <td>Oława</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Programista biega</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>89</td>
+                                                        <td>Ireneusz </td>
+                                                                <td>CERAZY</td>
+                                                                <td>Jugów</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>90</td>
+                                                        <td>Marta</td>
+                                                                <td>Krukiewicz</td>
+                                                                <td>Nowa Ruda</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NOWA RUDA BIEGA</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>91</td>
+                                                        <td>andrzej</td>
+                                                                <td>albrecht </td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>92</td>
+                                                        <td>Edyta</td>
+                                                                <td>Korgul</td>
+                                                                <td>Strzelin</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>93</td>
+                                                        <td>Bartosz</td>
+                                                                <td>Panek</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>klub szachowy Zamek Kamieniec</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>94</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Piwiński</td>
+                                                                <td>Doboszowice</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>95</td>
+                                                        <td>Iwona</td>
+                                                                <td>Kulińska-Pietrzak</td>
+                                                                <td>Kamieniec Zabkowicki</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Akademia Sportu Butterfly</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>96</td>
+                                                        <td>Sylwia</td>
+                                                                <td>Radzyńska</td>
+                                                                <td>Warszawa Ursynów </td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Nessi Kolorowa Drużyna</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>97</td>
+                                                        <td>Rafał</td>
+                                                                <td>Okoński</td>
+                                                                <td>Nowa Ruda</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Aktywna Nowa Ruda</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>98</td>
+                                                        <td>Viktoria</td>
+                                                                <td>Hoppe</td>
+                                                                <td>Orzech</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>99</td>
+                                                        <td>Monika</td>
+                                                                <td>Niedziółka</td>
+                                                                <td>grzmiaca</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Biegam bo lubie</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>100</td>
+                                                        <td>Marcin </td>
+                                                                <td>Kłocznik</td>
+                                                                <td>Ciepłowody</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>101</td>
+                                                        <td>Mariola</td>
+                                                                <td>Klimek</td>
+                                                                <td>Sławęcin</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>102</td>
+                                                        <td>Angelika </td>
+                                                                <td>Grodz </td>
+                                                                <td>Slawecin </td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>103</td>
+                                                        <td>Agnieszka</td>
+                                                                <td>Popek</td>
+                                                                <td>Dzierzoniow</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>104</td>
+                                                        <td>ANDRZEJ</td>
+                                                                <td>PODGÓRSKI</td>
+                                                                <td>Przyłęk</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>105</td>
+                                                        <td>Ewa</td>
+                                                                <td>Tulacz-Makowiecka</td>
+                                                                <td>Wrocław</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>106</td>
+                                                        <td>Aleksandra</td>
+                                                                <td>Makowiecki</td>
+                                                                <td>Wrocław</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>107</td>
+                                                        <td>Przemysław</td>
+                                                                <td>Zwaduch</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>108</td>
+                                                        <td>Waldemar</td>
+                                                                <td>Niemiec</td>
+                                                                <td>Nowa Ruda</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Zg Polkowice- Sieroszowice</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>109</td>
+                                                        <td>Rafał</td>
+                                                                <td>Michalik</td>
+                                                                <td>JAROSZÓW</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Młoda Unia</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>110</td>
+                                                        <td>Iwona</td>
+                                                                <td>Domaradzka</td>
+                                                                <td>Oleśnica</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>111</td>
+                                                        <td>Stanisław</td>
+                                                                <td>Domaradzki</td>
+                                                                <td>Oleśnica</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>112</td>
+                                                        <td>Arek</td>
+                                                                <td>Korman</td>
+                                                                <td>Śrem</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>113</td>
+                                                        <td>Justyna </td>
+                                                                <td>Zarzycka</td>
+                                                                <td>Olbrachcice,Ząbkowice Śląskie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>114</td>
+                                                        <td>Emilia</td>
+                                                                <td>Janowska</td>
+                                                                <td>Polanica-Zdrój</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>115</td>
+                                                        <td>Jerzy</td>
+                                                                <td>Misiara</td>
+                                                                <td>Bolechowice</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>116</td>
+                                                        <td>Marcin</td>
+                                                                <td>Umiński</td>
+                                                                <td>Uciechów</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>117</td>
+                                                        <td>Kuba</td>
+                                                                <td>Lewandowski</td>
+                                                                <td>Wrocław</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>MKS MOS Wrocław</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>118</td>
+                                                        <td>Dawid</td>
+                                                                <td>Wąsowski</td>
+                                                                <td>Świdnica</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>119</td>
+                                                        <td>Radosław</td>
+                                                                <td>Panek</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>UKS GIECEK Radków</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>120</td>
+                                                        <td>Bożena</td>
+                                                                <td>Bawoł-Bernatek</td>
+                                                                <td>Strzegom</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>STRZEGOMSKA DWUNASTKA</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>121</td>
+                                                        <td>Przemysław</td>
+                                                                <td>Galik</td>
+                                                                <td>Sosnowa</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>122</td>
+                                                        <td>Sławomir</td>
+                                                                <td>Przybyło</td>
+                                                                <td>Strzegom</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>strzegomska dwunastka</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>123</td>
+                                                        <td>Leopld</td>
+                                                                <td>Jowczyk</td>
+                                                                <td>Ząbkowice Śląskie</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>nie</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>124</td>
+                                                        <td>Piotr</td>
+                                                                <td>Jabłoński</td>
+                                                                <td>Oława</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>KB Harcownik </td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>125</td>
+                                                        <td>Sandra</td>
+                                                                <td>Łyczek</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>126</td>
+                                                        <td>Magda</td>
+                                                                <td>Pachuta-Jezierska</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>127</td>
+                                                        <td>Dawid</td>
+                                                                <td>Seweryn</td>
+                                                                <td>Laski</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>DELTA RUNNERS - filia Laski</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>128</td>
+                                                        <td>Anna </td>
+                                                                <td>Kruczek </td>
+                                                                <td>Polanica Zdrój</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>129</td>
+                                                        <td>Paweł </td>
+                                                                <td>Jasiński</td>
+                                                                <td>Polanica Zdrój</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>130</td>
+                                                        <td>Remigiusz</td>
+                                                                <td>Piotrowski</td>
+                                                                <td>Polanica Zdrój</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>131</td>
+                                                        <td>Justyna </td>
+                                                                <td>Barzak</td>
+                                                                <td>Strzelin</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>132</td>
+                                                        <td>Tomasz</td>
+                                                                <td>Burzała</td>
+                                                                <td>Ożary</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Delta Runners - Filia Ożary</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                                        <tr>
+                        <td>133</td>
+                                                        <td>Marta</td>
+                                                                <td>Mazurkiewicz</td>
+                                                                <td>Bardo</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>134</td>
+                                                        <td>Stanisław</td>
+                                                                <td>Zawadzki</td>
+                                                                <td>Szczytna</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Lks iskra Jaszkowa</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>135</td>
+                                                        <td>Andrzej</td>
+                                                                <td>Sadowski</td>
+                                                                <td>KOBIERZYCE</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>WKB PIAST Wrocław </td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>136</td>
+                                                        <td>marek</td>
+                                                                <td>planetorz</td>
+                                                                <td>Lewin Brzeski</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>137</td>
+                                                        <td>marek</td>
+                                                                <td>planetorz</td>
+                                                                <td>Lewin Brzeski</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>138</td>
+                                                        <td>Aleksandra</td>
+                                                                <td>Wiśniewska</td>
+                                                                <td>Kłodzko</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>139</td>
+                                                        <td>Ewelina</td>
+                                                                <td>Palac</td>
+                                                                <td>POTWORÓW</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>140</td>
+                                                        <td>Mariusz</td>
+                                                                <td>Starke</td>
+                                                                <td>Świdnica</td>
+                                                                <td>10KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>Świdnica</td>
+                                                                <td>NIE</td>
+                                                    </tr>
+                                        <tr>
+                        <td>141</td>
+                                                        <td>Wojciech</td>
+                                                                <td>Ciapka</td>
+                                                                <td>Kamieniec Ząbkowicki</td>
+                                                                <td>5KM</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>-</td>
+                                                                <td>TAK</td>
+                                                    </tr>
+                    				</tbody>
+            </table>
+            <br>
+            
+        <br>
+<h3>Statystyki:</h3>
+<table class="table table-striped">
+    <tr>
+        <th>Kategoria</th>
+        <th>Liczba zawodników</th>
+    </tr>
+                <tr>
+                <td>Kobiety</td>
+                <td>52</td>
+            </tr>
+                        <tr>
+                <td>Mężczyźni</td>
+                <td>89</td>
+            </tr>
+                        <tr>
+                <td>Wszyscy</td>
+                <td>141</td>
+            </tr>
+            </table>
+
+		</div>
+		<script type="text/javascript">
+			var navElem = document.getElementById("header");
+			var nav = $('#header');
+			//var main = document.getElementById("main");
+			var menu = document.getElementsByClassName("menuitems");
+			var close = document.getElementById("closebtn");
+			
+			var defaultHeight = nav.height();
+			var menuHeigth = defaultHeight + (menu.length * 52.5);
+			nav.height(defaultHeight);
+			//default to measure if/else from
+			
+			nav.height(navElem.style.height);
+			//main.style.marginTop = "50px";
+			for (i = 0; i < menu.length; i++){menu[i].style.marginTop="0px";};
+
+			close.addEventListener("click", function(){
+				var menuIcon = close.children;
+				for (i = 0; i < menuIcon.length; i++){
+					menuIcon[i].classList.toggle("active");
+				}   
+			});
+
+			function navToggle() {	
+				//to close
+				if (nav.height() >= menuHeigth) {
+					$('.menulist').hide("slow");
+					nav.height(defaultHeight);
+					var i = 0;
+					for (i = 0; i < menu.length; i++){
+						menu[i].style.opacity="0.0";
+					};
+				} 
+				//to open
+				else //if (nav.height() >= 70) 
+				{
+					$('.menulist').show(250);
+					nav.height(menuHeigth);
+					var i = 0;
+					for (i = 0; i < menu.length; i++){
+						menu[i].style.opacity="1.0";
+					};
+				}
+			};
+		</script>
+		<script type="text/javascript" src="http://tablesorter.com/__jquery.tablesorter.js"></script>
+		<script type='text/javascript'>
+
+		$.tablesorter.addParser({
+			id: 'polish-chars',
+			type: 'text',
+			is: function(s) {
+				return false;
+			},
+			format: function(s) {
+			   return s.replace(/\u0105/g, 'a')
+			   .replace(/\u0104/g, 'A')
+			   .replace(/\u0118/g, 'E')
+			   .replace(/\u0119/g, 'e')
+			   .replace(/\u0107/g, 'c')
+			   .replace(/\u0106/g, 'C')
+			   .replace(/\u0143/g, 'N')
+			   .replace(/\u0144/g, 'n')
+			   .replace(/�/g, 'O')
+			   .replace(/�/g, 'o')
+			   .replace(/\u0141/g, 'L')
+			   .replace(/\u0142/g, 'l')
+			   .replace(/\u015a/g, 'S')
+			   .replace(/\u015b/g, 's')
+			   .replace(/\u0179/g, 'Z')
+			   .replace(/\u017a/g, 'z')
+			   .replace(/\u017b/g, 'Z')
+			   .replace(/\u017c/g, 'z');
+			}
+		});
+
+		$(document).ready(function() {
+			$("table").tablesorter({
+				headers: {
+					0: {sorter: 'polish-chars'},
+					1: {sorter: 'polish-chars'},
+					2: {sorter: 'polish-chars'},
+					3: {sorter: 'polish-chars'},
+					4: {sorter: 'polish-chars'},
+					5: {sorter: 'polish-chars'},
+					6: {sorter: 'polish-chars'},
+					7: {sorter: 'polish-chars'},
+					8: {sorter: 'polish-chars'},
+					9: {sorter: 'polish-chars'},
+					10: {sorter: 'polish-chars'},
+					11: {sorter: 'polish-chars'},
+					12: {sorter: 'polish-chars'}
+				}
+			});
+		});
+		
+
+		</script>
+		
+    </body>
+</html>
